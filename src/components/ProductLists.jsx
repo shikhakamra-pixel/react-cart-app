@@ -1,7 +1,6 @@
 import ProductCard from './ProductCards.jsx'
-// import Products from '../data/Products.js';
 import product from '../data/Products'
-// import { useState } from 'react';
+
 
 function ProductList({ addToCart, wishlistData }) {
   const data = product.Products;
